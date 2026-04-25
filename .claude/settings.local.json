@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(node -e ' *)",
+      "Bash(node --stack-trace-limit=100 \"node_modules/next/dist/bin/next\" build)",
+      "Bash(NODE_OPTIONS=\"--stack-trace-limit=100\" node \"node_modules/next/dist/bin/next\" build)",
+      "Bash(xargs grep *)",
+      "Bash(node -e \"console.log\\('process.features.typescript:', process.features?.typescript\\); console.log\\('node version:', process.version\\)\")",
+      "Bash(node --input-type=module)",
+      "Bash(2>&1)",
+      "Bash(cat)",
+      "Bash(node /tmp/test-config.mjs)"
+    ]
+  }
+}
